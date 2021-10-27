@@ -1,17 +1,3 @@
-# มาเรียนกัน
+# Bash Leaing
 
-## หัวข้อที่ 1
-
-```
-printf "hello world"
-```
-
-1. fdsfd
-
-   - a. 123
-
-2. fdsfd
-
-   - a. 489
-
-Hello
+This is an example of bash script that consist of many use cases.
