@@ -46,6 +46,7 @@ echo $def_var7
 echo "=========================="
 
 
+
 # "#" ตัดหัว
 # echo ${var#?}
 
@@ -60,3 +61,5 @@ echo "=========================="
 # select str from the end
 # echo ${str: -$harfStrLen}
 
+str="abcde"
+echo ${str: -1:1}
