@@ -44,3 +44,19 @@ def_var7=${ex4?"def7"}
 echo "ex4: $ex4"
 echo $def_var7
 echo "=========================="
+
+
+# "#" ตัดหัว
+# echo ${var#?}
+
+# "%" ตัดท้าย
+# echo ${str%"el"}
+# echo ${str%???}
+# echo ${str%_*}
+
+# select str from begin to end
+# echo ${str::$harfStrLen}
+
+# select str from the end
+# echo ${str: -$harfStrLen}
+
