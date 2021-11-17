@@ -1,7 +1,4 @@
 #!/bin/bash
-
-set -x
-
 echo "hello"
 echo $1
 var="$( echo $1 | tr -dc '[:alpha:]\n\r' )"
