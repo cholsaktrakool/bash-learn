@@ -49,18 +49,26 @@ echo "=========================="
 
 # "#" ตัดหัว
 # echo ${var#?}
-
+# ==============================
 # "%" ตัดท้าย
 # echo ${str%"el"}
 # echo ${str%???}
 # echo ${str%_*}
-
+# ==============================
 # select str from begin to end
 # echo ${str::1}
-
+# ==============================
 # select str from the end
 # echo ${str: -1}
 # echo ${str: -1:1}
+# str="abcde"
+# echo ${str: -1:1}
+# ==============================
 
 str="abcde"
-echo ${str: -1:1}
+echo ${str^} # first letter to uppercase
+echo ${str^^} # all letter to uppercase
+
+str="abcde"
+echo ${str,} # first letter to lowercase
+echo ${str,,} # all letter to lowercase
